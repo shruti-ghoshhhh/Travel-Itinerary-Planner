@@ -138,7 +138,7 @@ with st.sidebar:
 
 # ── Header ──
 st.markdown('<div class="main-heading">✈️ Travel Itinerary Planner</div>', unsafe_allow_html=True)
-st.markdown('<div class="main-sub">Plan your perfect trip with our AI-powered chatbot! Tell me about your trip, and I\\'ll create a personalized itinerary.</div>', unsafe_allow_html=True)
+st.markdown("<div class=\\"main-sub\\">Plan your perfect trip with our AI-powered chatbot! Tell me about your trip, and I'll create a personalized itinerary.</div>", unsafe_allow_html=True)
 
 # ── Chat history ──
 for message in st.session_state.messages:
